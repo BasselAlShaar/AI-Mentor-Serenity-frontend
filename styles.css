@@ -1,0 +1,66 @@
+/* Purple button for 'Home' */
+.home-btn {
+  background-color: rgb(190, 0, 190);
+  color: white !important;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Purple text only for the other nav items */
+.text-purple {
+  color: purple !important;
+}
+
+/* Optional: make 'Home' button stand out more on hover */
+.home-btn:hover {
+  background-color: purple;
+}
+
+/* Purple icon background */
+.purple-icon-bg {
+  background-color: rgb(190, 0, 190) !important;
+  color: white !important;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+/* Purple link color */
+.text-purple {
+  color: purple !important;
+  text-decoration: none;
+}
+
+.text-purple:hover {
+  text-decoration: underline;
+}
+
+#featured-3 .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* a bit smaller gap */
+}
+
+#featured-3 .feature {
+  flex: 1 1 calc(33.333% - 0.75rem);
+  /* slightly narrower cards */
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+}
+
+.hook-background {
+  width: 100vw;
+  /* full viewport width */
+  background: linear-gradient(135deg,
+      rgb(255, 255, 255),
+      rgba(255, 223, 255, 0.8),
+      rgba(255, 129, 240, 0.8),
+      rgba(153, 51, 204, 0.8));
+  padding: 3rem 0;
+  /* vertical padding same as your existing py-5 */
+  box-sizing: border-box;
+  /* Optional: if horizontal scroll appears, use this to prevent it */
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}

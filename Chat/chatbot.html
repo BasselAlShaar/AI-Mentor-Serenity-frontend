@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenity Mental Health Companion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container my-5" id="chatbot">
+        <div class="chat-container">
+            <div class="chat-header">💬 Serenity Companion</div>
+            <div class="chat-box" id="chatBox">
+                <div class="message bot">
+                    <div class="avatar">S</div>
+                    <div class="bubble">Hi, I’m Serenity. How are you feeling today? 💜</div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your thoughts..." />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
